@@ -1,0 +1,7 @@
+nav #myNav{
+    display: none;
+    flex-direction: row;
+    border: dashed;
+    width: 200px;
+    height: 200px;
+}

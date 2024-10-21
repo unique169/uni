@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Descendant selector</title>
+    <style>
+        .container{
+            bordder: 5px solid tomato;
+            padding: 20px;
+        }
+       .box{
+background-color: pink;
+color: white;
+padding: 15px;
+margin: 20px;
+
+
+        *{
+            color: white;
+        }
+        div p{
+            color: orange;
+        }
+        h1{
+         color: brown;
+         padding: 50%;
+         margin-bottom: 0%;
+        }
+     </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1">
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat tempore quibusdam voluptatibus consectetur rem nam porro deleniti cumque id tenetur blanditiis culpa consequatur soluta eveniet deserunt architecto ad, quam commodi.
+            </p>
+        </div>
+        <div class="box" id="main-container">
+        
+        </div>
+        <h1>Hello world</h1>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque nemo aliquam sit repudiandae atque quam sequi nam culpa, provident dicta reiciendis eum omnis similique odtempora officiis? Quia, non hic.
+        </p>
+        <div class="box" id="box2">
+            <h1>Box heading</h1>
+        </div>
+</body>
+</html>
